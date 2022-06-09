@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.error-image {
+  padding: 5% 20% 0 27%;
+}
+
+img {
+  width: 85%;
+}
