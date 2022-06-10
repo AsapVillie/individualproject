@@ -11,6 +11,9 @@ h1 {
 .banner-right {
   margin-top: -20px;
 }
+.form-container hr {
+  height: auto;
+}
 .form-container {
   border: 1px solid black;
   margin: 3% 35% 0 35%;
