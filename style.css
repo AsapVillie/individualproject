@@ -182,11 +182,16 @@ hr {
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  text-align: center;
 }
+
 .footer-item a {
   text-decoration: underline overline;
   color: #e60965;
   font-size: 20px;
+}
+.footer-item a:hover{
+  color: black;
 }
 
 .copyright {
