@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 .banner {
   padding-top: 0;
+  height: 45px;
 }
 h1 {
   text-align: center;
@@ -7,6 +10,10 @@ h1 {
 }
 .banner-left {
   justify-self: start;
+}
+.banner-left h1{
+  font-family: 'Kaushan Script', cursive;
+  color: #222222;
 }
 .banner-right {
   margin-top: -20px;
