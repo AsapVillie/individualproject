@@ -2,11 +2,12 @@
 
 .banner {
   padding-top: 0;
-  height: 45px;
+  height: 48px;
 }
 h1 {
   text-align: center;
   padding-bottom: 20px;
+  
 }
 .banner-left {
   justify-self: start;
@@ -17,6 +18,9 @@ h1 {
 }
 .banner-right {
   margin-top: -20px;
+}
+.form-container h1{
+  font-size: 40px;
 }
 .form-container hr {
   height: auto;

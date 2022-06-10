@@ -54,11 +54,11 @@ input {
 }
 
 .text {
-  background-image: url("/individual_project/images/user.png");
+  background-image: url("images/user.png");
 }
 
 .password {
-  background-image: url("/individual_project/images/password.jpg");
+  background-image: url("images/password.jpg");
   background-size: 28px;
 }
 
