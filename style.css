@@ -95,7 +95,7 @@ body{
 .home-text{
   position: absolute;
   top:150px;
-  left:10px;
+  left:25px;
   color: white;
   /* border: 1px solid black; */
   width: 40%;
@@ -160,12 +160,14 @@ body{
 .info-item {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 5%;
+  column-gap: 2%;
   text-align: center;
   margin: 2% 5%;
 }
 .info-item-text{
   text-align: left;
+  font-size: 20px;
+  font-weight: 600;
 }
 #info-item2{
   background-color: #FBE5E5;
@@ -188,6 +190,22 @@ body{
   padding: 70px 0;
   
 }
-.footer{
+hr{
+  height: 10px;
+  background-color: #E60965;
+}
+.footer-container{
+  padding: 20px;
   display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.footer-item a{
+  text-decoration: underline overline;
+  color: #E60965;
+
+}
+
+.copyright{
+  text-align: center;
+  font-size: 12px;
 }
